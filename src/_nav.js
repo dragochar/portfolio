@@ -57,15 +57,6 @@ const _nav = [
     to: '/stuff/reallymail',
     icon: <CIcon icon={cilNotes} customClassName="nav-icon" />,
   },
-  {
-    component: CNavItem,
-    name: 'CoreUI Free',
-    to: '/icons/coreui-icons',
-    badge: {
-      color: 'success',
-      text: 'NEW',
-    },
-  },
   
 ]
 
