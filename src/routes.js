@@ -42,6 +42,12 @@ const CoreUIIcons = React.lazy(() => import('./views/icons/coreui-icons/CoreUIIc
 const Flags = React.lazy(() => import('./views/icons/flags/Flags'))
 const Brands = React.lazy(() => import('./views/icons/brands/Brands'))
 
+// Projets
+const PoolProps = React.lazy(() => import('./views/projects/PoolProps'))
+const Holaplex = React.lazy(() => import('./views/projects/Holaplex'))
+const CollegeMixer = React.lazy(() => import('./views/projects/CollegeMixer'))
+const ReallyMail = React.lazy(() => import('./views/projects/ReallyMail'))
+
 // Notifications
 const Alerts = React.lazy(() => import('./views/notifications/alerts/Alerts'))
 const Badges = React.lazy(() => import('./views/notifications/badges/Badges'))
@@ -95,6 +101,12 @@ const routes = [
   { path: '/notifications/modals', name: 'Modals', element: Modals },
   { path: '/notifications/toasts', name: 'Toasts', element: Toasts },
   { path: '/widgets', name: 'Widgets', element: Widgets },
+  // all my projects stuff
+  { path: '/stuff/poolprops', name: 'PoolProps', element: PoolProps },
+  { path: '/stuff/holaplex', name: 'Holaplex', element: Holaplex },
+  { path: '/stuff/college-mixer', name: 'College Mixer', element: CollegeMixer },
+  { path: '/stuff/reallymail', name: 'ReallyMail', element: ReallyMail },
+
 ]
 
 export default routes

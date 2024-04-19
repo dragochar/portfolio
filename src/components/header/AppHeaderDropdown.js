@@ -23,7 +23,7 @@ import {
 
 import CIcon from '@coreui/icons-react'
 
-import avatar69 from './../../assets/images/avatars/69.jpg'
+import avatar69 from './../../assets/images/avatars/69.png'
 
 const AppHeaderDropdown = () => {
   return (

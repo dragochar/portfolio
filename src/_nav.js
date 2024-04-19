@@ -13,6 +13,7 @@ import {
   cilSpeedometer,
   cilStar,
   cilPool,
+
   
 } from '@coreui/icons'
 import { CNavGroup, CNavItem, CNavTitle } from '@coreui/react'
@@ -30,7 +31,7 @@ const _nav = [
   },
   {
     component: CNavTitle,
-    name: 'Stuff he has worked on',
+    name: 'Stuff Zac has worked on',
   },
   {
     component: CNavItem,
@@ -42,19 +43,28 @@ const _nav = [
     component: CNavItem,
     name: 'Holaplex',
     to: '/stuff/holaplex',
-    icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
+    icon: <CIcon icon={cilCursor} customClassName="nav-icon" />,
   },
   {
     component: CNavItem,
     name: 'College Mixer',
     to: '/stuff/college-mixer',
-    icon: <CIcon icon={cilPencil} customClassName="nav-icon" />,
+    icon: <CIcon icon={cilStar} customClassName="nav-icon" />,
   },
   {
     component: CNavItem,
     name: 'ReallyMail',
     to: '/stuff/reallymail',
     icon: <CIcon icon={cilNotes} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'CoreUI Free',
+    to: '/icons/coreui-icons',
+    badge: {
+      color: 'success',
+      text: 'NEW',
+    },
   },
   
 ]

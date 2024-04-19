@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { CWidgetStatsD, CRow, CCol } from '@coreui/react'
 import CIcon from '@coreui/icons-react'
-import { cibFacebook, cibLinkedin, cibTwitter, cilCalendar } from '@coreui/icons'
+import { cibFacebook, cibLinkedin, cibTwitter, cilCalendar, cibInstagram, cilGlobeAlt } from '@coreui/icons'
 import { CChart } from '@coreui/react-chartjs'
 
 const WidgetsBrand = (props) => {
@@ -60,13 +60,13 @@ const WidgetsBrand = (props) => {
               />
             ),
           })}
-          icon={<CIcon icon={cibFacebook} height={52} className="my-4 text-white" />}
+          icon={<CIcon icon={cibInstagram} height={52} className="my-4 text-white" />}
           values={[
-            { title: 'friends', value: '89K' },
-            { title: 'feeds', value: '459' },
+            { title: 'followers', value: '971' },
+            { title: 'impressions', value: '36k' },
           ]}
           style={{
-            '--cui-card-cap-bg': '#3b5998',
+            '--cui-card-cap-bg': '#E1306C',
           }}
         />
       </CCol>
@@ -96,8 +96,8 @@ const WidgetsBrand = (props) => {
           })}
           icon={<CIcon icon={cibTwitter} height={52} className="my-4 text-white" />}
           values={[
-            { title: 'followers', value: '973k' },
-            { title: 'tweets', value: '1.792' },
+            { title: 'followers', value: '1594' },
+            { title: 'tweets', value: '9230' },
           ]}
           style={{
             '--cui-card-cap-bg': '#00aced',
@@ -130,8 +130,8 @@ const WidgetsBrand = (props) => {
           })}
           icon={<CIcon icon={cibLinkedin} height={52} className="my-4 text-white" />}
           values={[
-            { title: 'contacts', value: '500' },
-            { title: 'feeds', value: '1.292' },
+            { title: 'contacts', value: '639' },
+            { title: 'posts', value: '0' },
           ]}
           style={{
             '--cui-card-cap-bg': '#4875b4',
@@ -163,10 +163,10 @@ const WidgetsBrand = (props) => {
               />
             ),
           })}
-          icon={<CIcon icon={cilCalendar} height={52} className="my-4 text-white" />}
+          icon={<CIcon icon={cilGlobeAlt} height={52} className="my-4 text-white" />}
           values={[
-            { title: 'events', value: '12+' },
-            { title: 'meetings', value: '4' },
+            { title: 'countries', value: '27' },
+            { title: 'continents', value: '6' },
           ]}
         />
       </CCol>
